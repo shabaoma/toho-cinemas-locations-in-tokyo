@@ -25,4 +25,4 @@ for cinema in toho_cinemas:
     folium.Marker(location=cinema["location"], popup=cinema["name"], icon=folium.Icon(color="red")).add_to(map)
 
 # 保存地图为HTML文件
-map.save("toho_cinemas_map.html")
+map.save("html/index.html")
